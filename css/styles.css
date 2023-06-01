@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+body{
+    background-color: rgba(229, 229, 229, 1);
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    padding: 8px;
+}
+
+nav.navMenLogos{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 8px;
+}
+span.lblBan1{
+    color: rgba(57, 178, 74, 1);
+}
+span.lblBan2{
+    color: white
+}
+span.lblBan3{
+    color: rgba(252, 32, 12, 1);
+}
+ul{
+    color: white;
+    list-style: none;
+    padding-left: 5px;
+}
+li{
+    padding: 5px;
+}
+li.elemNavBan{
+    display: inline-block;
+}
+main{
+    display: flex;
+    justify-content:center;
+}
+section{
+    width: 490px;
+    height: 350px;
+    background-color: white;
+}
+.box1{
+    position: relative;
+}
+.txtBx1{
+    position: absolute;
+    top: 24px;
+    left: 18px;
+}
+h2{
+    color: red;
+    font-size: 24px;
+}
+h2.h2bx2{
+    text-align: center;
+}
+div.lblBx2{
+    padding: 20px;
+}
+section.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.contBx2{
+   display: flex;
+   justify-content: space-between;
+   padding: 70px;
+   padding-top: 40px;
+}
+h3{
+    padding: 10px;
+}
+ol{
+    padding: 0;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
