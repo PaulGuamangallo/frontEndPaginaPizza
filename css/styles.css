@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 *{
     margin: 0;
     font-family: 'Roboto';
@@ -38,6 +39,7 @@ ul{
 }
 li{
     padding: 5px;
+    font-size: 16px;
 }
 li.elemNavBan{
     display: inline-block;
